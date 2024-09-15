@@ -1,0 +1,32 @@
+<?xml version="1.1" encoding="ISO-8859-1"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>SessionTracking1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>servlet1</display-name>
+    <servlet-name>servlet1</servlet-name>
+    <servlet-class>com.sessionTrac.servlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servlet1</servlet-name>
+    <url-pattern>/servlet1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>servlet2</display-name>
+    <servlet-name>servlet2</servlet-name>
+    <servlet-class>com.sessionTrac.servlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servlet2</servlet-name>
+    <url-pattern>/servlett2</url-pattern>
+  </servlet-mapping>
+</web-app>
